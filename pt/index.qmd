@@ -1,0 +1,32 @@
+---
+title: "Nicolas Sousa"
+title-block-banner: false
+page-layout: full
+---
+
+::: {.hero}
+::: {}
+<span class="eyebrow">Ciência · Tecnologia · Reflexões</span>
+
+# Explorando ideias, conectando conhecimentos.
+
+Sou Nicolas Sousa. Minha trajetória atravessa finanças, computação, física e matemática. Este é meu espaço para compartilhar pesquisas, textos e reflexões — sem limitar a curiosidade a uma única disciplina.
+
+[Conheça meus textos](textos.qmd){.ns-cta}
+:::
+::: {.portrait}
+Sua fotografia aqui
+:::
+:::
+
+## Textos recentes
+
+::: {.ns-grid}
+<a class="ns-card" href="posts/grafos.qmd"><span class="meta">Epistemologia · Texto demonstrativo</span><h3>Por que representamos o conhecimento?</h3><p>Ideias sobre conexões, grafos e a arquitetura do pensamento científico.</p>Continuar lendo ↗</a>
+<a class="ns-card" href="pesquisa.qmd"><span class="meta">Pesquisa · Em desenvolvimento</span><h3>Representação do conhecimento em física</h3><p>Perguntas e técnicas para investigar como a literatura científica representa relações.</p>Explorar pesquisa ↗</a>
+<a class="ns-card" href="projetos.qmd"><span class="meta">Tecnologia · Projetos</span><h3>Ferramentas e experimentos</h3><p>Um espaço para compartilhar soluções, simulações e experiências de desenvolvimento.</p>Conhecer projetos ↗</a>
+:::
+
+::: {.ns-note}
+Este site está em desenvolvimento. Os textos identificados como demonstrativos servem apenas para validar o layout e não são publicações científicas.
+:::
