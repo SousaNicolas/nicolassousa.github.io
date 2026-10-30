@@ -1,0 +1,32 @@
+---
+title: "Nicolas Sousa"
+title-block-banner: false
+page-layout: full
+---
+
+::: {.hero}
+::: {}
+<span class="eyebrow">Science · Technology · Reflections</span>
+
+# Exploring ideas, connecting knowledge.
+
+I'm Nicolas Sousa. My path crosses finance, computing, physics and mathematics. This is my space to share research, writing and reflections — without limiting curiosity to a single discipline.
+
+[Explore my writing](writing.qmd){.ns-cta}
+:::
+::: {.portrait}
+Your portrait here
+:::
+:::
+
+## Recent writing
+
+::: {.ns-grid}
+<a class="ns-card" href="posts/graphs.qmd"><span class="meta">Epistemology · Sample article</span><h3>Why do we represent knowledge?</h3><p>Connections, graphs and the architecture of scientific thinking.</p>Continue reading ↗</a>
+<a class="ns-card" href="research.qmd"><span class="meta">Research · In progress</span><h3>Knowledge representation in physics</h3><p>Questions and techniques for exploring how scientific literature expresses relationships.</p>Explore research ↗</a>
+<a class="ns-card" href="projects.qmd"><span class="meta">Technology · Projects</span><h3>Tools and experiments</h3><p>A space to share solutions, simulations and development experiences.</p>Explore projects ↗</a>
+:::
+
+::: {.ns-note}
+This website is under development. Texts marked as samples are layout demonstrations, not scientific publications.
+:::
