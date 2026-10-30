@@ -8,7 +8,7 @@ Um lugar para publicar pensamentos, explicações e investigações. Nem todo te
 ## Artigos
 
 ::: {.ns-grid}
-<a class="ns-card" href="posts/grafos.qmd"><span class="meta">Texto demonstrativo</span><h3>Por que representamos o conhecimento?</h3><p>Exemplo de artigo com uma pequena experiência interativa.</p>Ler ↗</a>
+<a class="ns-card" href="posts/grafos.html"><span class="meta">Texto demonstrativo</span><h3>Por que representamos o conhecimento?</h3><p>Exemplo de artigo com uma pequena experiência interativa.</p>Ler ↗</a>
 :::
 
 ::: {.ns-note}
