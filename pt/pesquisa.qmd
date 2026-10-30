@@ -1,0 +1,17 @@
+---
+title: "Pesquisa"
+description: "Interesses, perguntas e trabalhos em desenvolvimento."
+---
+
+A pesquisa começa com perguntas. Este espaço reunirá investigações, notas metodológicas, referências e resultados quando estiverem prontos para divulgação.
+
+## Áreas de interesse
+
+- Representação computacional do conhecimento em física
+- Redes de citação e análise de grafos
+- Métodos de inteligência artificial aplicados a documentos
+- Modelagem matemática e explicações científicas interativas
+
+::: {.ns-note}
+Projetos em andamento são apresentados como interesses ou propostas, e não como resultados publicados. Materiais arquivados no Zenodo poderão receber identificadores DOI.
+:::
