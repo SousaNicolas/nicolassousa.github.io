@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Nicolas Sousa — Science, Technology & Reflections. Textos, pesquisa e ideias.">
+<title>Nicolas Sousa — Science, Technology & Reflections</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-row">
+    <a class="brand" href="#inicio" data-nav="inicio">Nicolas Sousa<span>.</span></a>
+    <nav aria-label="Navegação principal">
+      <button data-nav="inicio" class="current" data-i="navHome">Início</button>
+      <button data-nav="textos" data-i="navTexts">Textos</button>
+      <button data-nav="pesquisa" data-i="navResearch">Pesquisa</button>
+      <button data-nav="projetos" data-i="navProjects">Projetos</button>
+      <button data-nav="sobre" data-i="navAbout">Sobre</button>
+    </nav>
+    <div class="controls"><button id="language" aria-label="Switch language">PT / EN</button><button id="theme" aria-label="Alternar tema">☾</button></div>
+  </div>
+</header>
+<main class="container" id="main">
+  <section id="inicio" class="view active" aria-label="Página inicial">
+    <div class="hero">
+      <div><div class="eyebrow" data-i="eyebrow">CIÊNCIA · TECNOLOGIA · REFLEXÕES</div>
+      <h1 data-i="hero">Explorando ideias,<br>conectando conhecimentos.</h1>
+      <p class="lead" data-i="intro">Sou Nicolas Sousa. Minha trajetória atravessa finanças, computação, física e matemática. Este é meu espaço para compartilhar pesquisas, textos e reflexões — sem limitar a curiosidade a uma única disciplina.</p>
+      <button class="cta" data-nav="textos" data-i="browse">Conheça meus textos ↗</button></div>
+      <div class="portrait" role="img" aria-label="Espaço reservado para fotografia"><div class="portrait-symbol">◯</div><span data-i="portrait">Sua fotografia aqui</span></div>
+    </div>
+    <div class="section-top"><h2 data-i="recent">Textos recentes</h2><button class="text-button" data-nav="textos" data-i="all">Ver todos ↗</button></div>
+    <div class="cards">
+      <button class="card" data-article="0"><small data-i="tagA">EPISTEMOLOGIA · DEMONSTRAÇÃO</small><h3 data-i="articleA">Por que representamos o conhecimento?</h3><p data-i="summaryA">Ideias sobre conexões, grafos e a arquitetura do pensamento científico.</p><span class="more" data-i="read">Ler texto ↗</span></button>
+      <button class="card" data-nav="pesquisa"><small data-i="tagB">PESQUISA · EM DESENVOLVIMENTO</small><h3 data-i="articleB">Representação do conhecimento em física</h3><p data-i="summaryB">Perguntas sobre como representamos relações na literatura científica.</p><span class="more" data-i="explore">Explorar ↗</span></button>
+      <button class="card" data-nav="projetos"><small data-i="tagC">TECNOLOGIA · PROJETOS</small><h3 data-i="articleC">Ferramentas e experimentos</h3><p data-i="summaryC">Um espaço para compartilhar simulações e experiências de desenvolvimento.</p><span class="more" data-i="explore2">Explorar ↗</span></button>
+    </div>
+    <p class="notice" data-i="notice">Protótipo inicial: textos de demonstração, ainda não publicados como trabalhos científicos.</p>
+  </section>
+  <section id="textos" class="view"><div class="eyebrow" data-i="tagWriting">ESCRITA</div><h1 data-i="textsTitle">Textos e reflexões</h1><p class="lead" data-i="textsIntro">Ensaios, notas e ideias em desenvolvimento.</p><button class="list-link" data-article="0"><small data-i="sample">TEXTO DEMONSTRATIVO</small><strong data-i="articleA2">Por que representamos o conhecimento?</strong><span data-i="summaryA2">Ideias sobre conexões, grafos e a arquitetura do pensamento científico.</span></button></section>
+  <section id="pesquisa" class="view"><div class="eyebrow" data-i="tagResearch">INVESTIGAÇÃO</div><h1 data-i="researchTitle">Pesquisa</h1><p class="lead" data-i="researchIntro">Um espaço para perguntas, métodos e investigações em andamento.</p><ul class="topic-list" id="research-topics"></ul><p class="notice" data-i="researchCaution">Projetos em andamento não são apresentados como resultados publicados.</p></section>
+  <section id="projetos" class="view"><div class="eyebrow" data-i="tagProjects">EXPERIMENTOS</div><h1 data-i="projectsTitle">Projetos</h1><p class="lead" data-i="projectsIntro">Ferramentas, visualizações e experiências que poderão ser compartilhadas futuramente.</p><ul class="topic-list" id="project-topics"></ul></section>
+  <section id="sobre" class="view"><div class="eyebrow" data-i="tagAbout">QUEM SOU</div><h1 data-i="aboutTitle">Sobre mim</h1><p class="prose" data-i="aboutOne">Sou Nicolas Sousa, de São Paulo, Brasil. Minha trajetória reúne experiência profissional na área financeira e estudos em contabilidade, engenharia, computação, física e matemática.</p><p class="prose" data-i="aboutTwo">Gosto de aproximar disciplinas, investigar perguntas e registrar ideias. Este site é um espaço pessoal e independente para compartilhar esse processo.</p><p class="notice" data-i="disclaimer">As opiniões apresentadas aqui são pessoais e não representam empregadores ou instituições.</p></section>
+  <article id="artigo" class="view article-page"><button class="text-button" data-nav="textos" data-i="back">← Voltar aos textos</button><div class="eyebrow" data-i="articleType">EPISTEMOLOGIA · TEXTO DEMONSTRATIVO</div><h1 data-i="articleTitle">Por que representamos o conhecimento?</h1><p class="byline" data-i="byline">Nicolas Sousa · 30 de outubro de 2026</p><p class="prose" data-i="paragraph1">Representar conhecimento é mais do que armazenar informações. Ao organizar conceitos e relações, percebemos conexões que seriam difíceis de identificar em uma lista linear.</p><p class="prose" data-i="paragraph2">Um grafo pode representar ideias como nós e suas relações como arestas. Experimente selecionar um conceito para ver uma explicação diferente.</p>
+    <div class="simulation"><strong data-i="simTitle">Experimente: rede conceitual</strong><div class="sim-buttons"><button data-concept="0" data-i="physics">Física</button><button data-concept="1" data-i="math">Matemática</button><button data-concept="2" data-i="computing">Computação</button></div><svg viewBox="0 0 340 160" role="img" aria-label="Rede com três áreas conectadas"><path d="M80 80 L258 40 L258 122 L80 80" fill="none" stroke="#659f88" stroke-width="2"/><circle cx="80" cy="80" r="32" fill="#487966"/><circle cx="258" cy="40" r="32" fill="#729ab5"/><circle cx="258" cy="122" r="32" fill="#9579a8"/><g fill="#fff" font-size="12" text-anchor="middle"><text x="80" y="84">1</text><text x="258" y="44">2</text><text x="258" y="126">3</text></g></svg><p id="sim-text" aria-live="polite"></p></div>
+    <p class="prose" data-i="paragraph3">A interatividade não substitui a leitura: ela acrescenta uma maneira de compreender a mesma ideia.</p><p class="notice" data-i="demoDisclaimer">Exemplo demonstrativo. Não é artigo científico, não passou por revisão por pares e não possui DOI.</p>
+  </article>
+</main>
+<footer><div class="container footer-row"><span>© 2026 Nicolas Sousa</span><span>Science, Technology &amp; Reflections</span></div></footer>
+<script src="site.js"></script>
+</body></html>
