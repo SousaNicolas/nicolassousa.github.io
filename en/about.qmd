@@ -1,0 +1,19 @@
+---
+title: "About me"
+---
+
+I'm **Nicolas Sousa**, from São Paulo, Brazil.
+
+My background combines professional experience in finance with studies in accounting, engineering, computing, physics and mathematics. I enjoy connecting disciplines and investigating questions that emerge where they meet.
+
+This independent site is a place to write and document how my ideas evolve.
+
+## Interests
+
+- Knowledge representation and epistemology
+- Graphs and scientific networks
+- Physics and mathematics
+- Artificial intelligence and automation
+- Tools and learning experiences
+
+Opinions expressed here are personal and do not represent employers or affiliated institutions.
