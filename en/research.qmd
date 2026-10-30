@@ -1,0 +1,17 @@
+---
+title: "Research"
+description: "Interests, questions and work in progress."
+---
+
+Research starts with questions. This space will collect investigations, methodological notes, references and results when they are ready to share.
+
+## Areas of interest
+
+- Computational knowledge representation in physics
+- Citation networks and graph analysis
+- Artificial intelligence methods applied to documents
+- Mathematical modeling and interactive scientific explanations
+
+::: {.ns-note}
+Work in progress is presented as an interest or proposal, not as published results. Research materials archived on Zenodo may receive DOI identifiers.
+:::
