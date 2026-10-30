@@ -1,0 +1,14 @@
+---
+title: "Projetos e experimentos"
+description: "Tecnologia, simulações e ferramentas."
+---
+
+Gosto de transformar perguntas em pequenos experimentos. Aqui serão apresentados projetos e ferramentas que possam ser compartilhados publicamente.
+
+## Em preparação
+
+- Simulações de fenômenos físicos e matemáticos
+- Visualizações de grafos e dados
+- Experimentos com inteligência artificial e automação
+
+Os projetos serão adicionados individualmente, com documentação, imagens e links para código ou demonstrações quando disponíveis.
