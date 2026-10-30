@@ -8,7 +8,7 @@ A place to share thoughts, explanations and investigations. Not every text needs
 ## Articles
 
 ::: {.ns-grid}
-<a class="ns-card" href="posts/graphs.qmd"><span class="meta">Sample article</span><h3>Why do we represent knowledge?</h3><p>Example article featuring a small interactive experiment.</p>Read ↗</a>
+<a class="ns-card" href="posts/graphs.html"><span class="meta">Sample article</span><h3>Why do we represent knowledge?</h3><p>Example article featuring a small interactive experiment.</p>Read ↗</a>
 :::
 
 ::: {.ns-note}
