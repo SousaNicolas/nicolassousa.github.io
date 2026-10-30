@@ -1,0 +1,13 @@
+<script>
+(() => {
+  const path = window.location.pathname;
+  // The language chosen by the visitor always takes precedence over the automatic guess.
+  document.querySelectorAll('a[href*="/pt/"],a[href*="/en/"]').forEach(a => {
+    a.addEventListener('click', () => {
+      if (a.textContent.trim() === 'PT' || a.textContent.trim() === 'EN') {
+        localStorage.setItem('ns-language', a.textContent.trim().toLowerCase());
+      }
+    });
+  });
+})();
+</script>
