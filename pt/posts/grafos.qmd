@@ -1,0 +1,52 @@
+---
+title: "Por que representamos o conhecimento?"
+subtitle: "Texto demonstrativo para validar o design e a interatividade"
+author: "Nicolas Sousa"
+date: "2026-10-30"
+categories: [Epistemologia, Grafos]
+---
+
+::: {.ns-note}
+**Texto demonstrativo.** Este artigo é um exemplo de layout e não uma publicação científica. Não há DOI associado.
+:::
+
+A organização do conhecimento não é apenas uma questão de armazenar informações. Quando representamos conceitos e suas relações, podemos perceber conexões que seriam difíceis de identificar em uma lista linear.
+
+Um grafo é uma representação simples: seus **nós** podem indicar conceitos, enquanto suas **arestas** expressam relações. Abaixo, selecione um conceito para experimentar essa ideia.
+
+## Experimente: uma pequena rede conceitual
+
+<div class="ns-note" id="graph-demo-pt">
+  <p><strong>Selecione uma ideia:</strong></p>
+  <div role="group" aria-label="Conceitos do grafo" style="display:flex;flex-wrap:wrap;gap:.5rem">
+    <button type="button" data-concept="fisica">Física</button>
+    <button type="button" data-concept="matematica">Matemática</button>
+    <button type="button" data-concept="computacao">Computação</button>
+  </div>
+  <svg role="img" aria-label="Três conceitos interligados" viewBox="0 0 320 145" style="width:100%;max-height:210px">
+    <path d="M72 72 L248 35 L248 115 L72 72" stroke="#549b85" stroke-width="2" fill="none"/>
+    <circle cx="72" cy="72" r="29" fill="#366f63"/>
+    <circle cx="248" cy="35" r="29" fill="#6386aa"/>
+    <circle cx="248" cy="115" r="29" fill="#a789bd"/>
+    <g font-size="11" text-anchor="middle" fill="white" font-family="Arial,sans-serif"><text x="72" y="76">Física</text><text x="248" y="39">Matemática</text><text x="248" y="119">Computação</text></g>
+  </svg>
+  <p id="graph-explanation-pt" aria-live="polite">Física: descreve fenômenos e utiliza modelos matemáticos e computacionais.</p>
+</div>
+<script>
+(function(){
+ const panel=document.getElementById('graph-demo-pt');
+ const target=document.getElementById('graph-explanation-pt');
+ const descriptions={
+   fisica:'Física: descreve fenômenos e utiliza modelos matemáticos e computacionais.',
+   matematica:'Matemática: oferece estruturas para formalizar relações e investigar propriedades.',
+   computacao:'Computação: permite implementar modelos, simular fenômenos e analisar redes complexas.'
+ };
+ panel.querySelectorAll('button[data-concept]').forEach(btn=>btn.addEventListener('click',()=>{target.textContent=descriptions[btn.dataset.concept];}));
+})();
+</script>
+
+O objetivo não é substituir a leitura por uma animação. É permitir que uma visualização faça parte da explicação, quando acrescentar clareza.
+
+## Próximos passos
+
+Em uma publicação completa, esse tipo de componente poderá ser acompanhado por referências, resultados, código e uma versão arquivada para citação.
