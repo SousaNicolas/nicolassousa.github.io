@@ -1,0 +1,38 @@
+/* Nicolas Sousa — editorial identity */
+$primary: #357964;
+$font-family-sans-serif: "Inter", "Segoe UI", Arial, sans-serif;
+$headings-font-family: Georgia, "Times New Roman", serif;
+$border-radius: .8rem;
+
+:root { --ns-line: #dce3de; --ns-muted: #69766e; --ns-paper: #fafaf7; }
+body { line-height: 1.75; letter-spacing: -.006em; }
+body.quarto-light { background: var(--ns-paper); color: #26352f; }
+body.quarto-dark { background: #171f1e; color: #e7ede8; }
+h1,h2,h3 { letter-spacing: -.035em; line-height: 1.24; }
+h1 { font-size: clamp(2.4rem, 5vw, 4rem); font-weight: 500; }
+h2 { font-weight: 500; }
+.navbar { border-bottom: 1px solid var(--ns-line); }
+body.quarto-dark .navbar { border-bottom-color: #354640; }
+.navbar-brand { font-family: Georgia,serif; font-size: 1.5rem; }
+#quarto-content { max-width: 1140px; margin: auto; }
+.quarto-title-banner { background: transparent; }
+.hero { display:grid; grid-template-columns: minmax(0,1fr) 180px; align-items:center; gap:2.5rem; padding: 2.8rem 0 3.5rem; border-bottom:1px solid var(--ns-line); }
+.hero .eyebrow { color:#357964; text-transform:uppercase; letter-spacing:.18em; font-size:.72rem; font-weight:700; }
+.hero h1 { margin:.8rem 0; }
+.hero p { color:var(--ns-muted); max-width:650px; font-size:1.08rem; }
+.portrait { aspect-ratio: 4/5; border:1px dashed #89a99a; background:#e8eee9; border-radius:1rem; display:flex; align-items:center; justify-content:center; text-align:center; color:#51675b; padding:1rem; font-size:.85rem; }
+body.quarto-dark .portrait { background:#25352e; color:#c2d4ca; }
+.ns-grid { display:grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap:1.2rem; margin:1.5rem 0 2rem; }
+.ns-card { border:1px solid var(--ns-line); border-radius:1rem; padding:1.35rem; background:rgba(255,255,255,.5); display:block; color:inherit; text-decoration:none; transition:transform .2s, border-color .2s; }
+.ns-card:hover { transform:translateY(-3px); border-color:#357964; color:inherit; }
+.ns-card .meta { font:700 .7rem "Inter",sans-serif; letter-spacing:.1em; color:#357964; text-transform:uppercase; }
+.ns-card h3 { margin:.6rem 0; font-size:1.35rem; }
+.ns-card p { color:var(--ns-muted); font-size:.92rem; }
+body.quarto-dark .ns-card { background:#1e2926; border-color:#374941; }
+body.quarto-dark .hero { border-bottom-color:#374941; }
+.ns-cta { display:inline-block; margin-top:1rem; padding:.62rem 1rem; background:#357964; color:white; text-decoration:none; border-radius:.55rem; }
+.ns-cta:hover { color:white; background:#27644f; }
+.ns-note { padding:1rem 1.2rem; background:#edf4ef; border-left:3px solid #357964; border-radius:.3rem; font-size:.9rem; }
+body.quarto-dark .ns-note { background:#26392f; }
+@media(max-width:700px){ .hero { grid-template-columns:1fr 105px; gap:1rem; padding-top:1rem; } .hero h1{font-size:2.25rem;} .ns-grid{grid-template-columns:1fr;} }
+@media(prefers-reduced-motion:reduce){.ns-card{transition:none}.ns-card:hover{transform:none}}
