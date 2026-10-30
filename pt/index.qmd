@@ -22,9 +22,9 @@ Sua fotografia aqui
 ## Textos recentes
 
 ::: {.ns-grid}
-<a class="ns-card" href="posts/grafos.qmd"><span class="meta">Epistemologia · Texto demonstrativo</span><h3>Por que representamos o conhecimento?</h3><p>Ideias sobre conexões, grafos e a arquitetura do pensamento científico.</p>Continuar lendo ↗</a>
-<a class="ns-card" href="pesquisa.qmd"><span class="meta">Pesquisa · Em desenvolvimento</span><h3>Representação do conhecimento em física</h3><p>Perguntas e técnicas para investigar como a literatura científica representa relações.</p>Explorar pesquisa ↗</a>
-<a class="ns-card" href="projetos.qmd"><span class="meta">Tecnologia · Projetos</span><h3>Ferramentas e experimentos</h3><p>Um espaço para compartilhar soluções, simulações e experiências de desenvolvimento.</p>Conhecer projetos ↗</a>
+<a class="ns-card" href="posts/grafos.html"><span class="meta">Epistemologia · Texto demonstrativo</span><h3>Por que representamos o conhecimento?</h3><p>Ideias sobre conexões, grafos e a arquitetura do pensamento científico.</p>Continuar lendo ↗</a>
+<a class="ns-card" href="pesquisa.html"><span class="meta">Pesquisa · Em desenvolvimento</span><h3>Representação do conhecimento em física</h3><p>Perguntas e técnicas para investigar como a literatura científica representa relações.</p>Explorar pesquisa ↗</a>
+<a class="ns-card" href="projetos.html"><span class="meta">Tecnologia · Projetos</span><h3>Ferramentas e experimentos</h3><p>Um espaço para compartilhar soluções, simulações e experiências de desenvolvimento.</p>Conhecer projetos ↗</a>
 :::
 
 ::: {.ns-note}
