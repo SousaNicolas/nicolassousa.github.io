@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Nicolas Sousa"
+  description: "Science, Technology & Reflections"
+  site-url: "https://sousanicolas.github.io/nicolassousa.github.io/"
+  favicon: assets/favicon.svg
+  navbar:
+    logo: assets/favicon.svg
+    title: "Nicolas Sousa"
+    left:
+      - text: "Início"
+        href: pt/index.qmd
+      - text: "Textos"
+        href: pt/textos.qmd
+      - text: "Pesquisa"
+        href: pt/pesquisa.qmd
+      - text: "Projetos"
+        href: pt/projetos.qmd
+      - text: "Sobre"
+        href: pt/sobre.qmd
+    right:
+      - text: "PT"
+        href: pt/index.qmd
+      - text: "EN"
+        href: en/index.qmd
+      - icon: github
+        href: https://github.com/SousaNicolas
+      - icon: linkedin
+        href: https://www.linkedin.com/
+  page-footer:
+    left: "© 2026 Nicolas Sousa"
+    right: "Science, Technology & Reflections"
+  search: true
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [darkly, styles.scss]
+    toc: true
+    code-copy: true
+    smooth-scroll: true
+    include-after-body: _includes/site.js.html
+
+execute:
+  freeze: auto
