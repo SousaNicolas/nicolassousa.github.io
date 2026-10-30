@@ -1,0 +1,16 @@
+---
+title: "Writing and reflections"
+description: "Essays, notes and ideas in progress."
+---
+
+A place to share thoughts, explanations and investigations. Not every text needs to be a research paper; some will be brief notes, while others may contain references, equations, illustrations and simulations.
+
+## Articles
+
+::: {.ns-grid}
+<a class="ns-card" href="posts/graphs.qmd"><span class="meta">Sample article</span><h3>Why do we represent knowledge?</h3><p>Example article featuring a small interactive experiment.</p>Read ↗</a>
+:::
+
+::: {.ns-note}
+Final publications will include dates, authorship, versions and a DOI when appropriate.
+:::
