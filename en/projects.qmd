@@ -1,0 +1,14 @@
+---
+title: "Projects and experiments"
+description: "Technology, simulations and tools."
+---
+
+I enjoy turning questions into small experiments. This section will showcase projects and tools that can be shared publicly.
+
+## Coming soon
+
+- Physics and mathematics simulations
+- Graph and data visualizations
+- Artificial intelligence and automation experiments
+
+Projects will be added individually, with documentation, illustrations and links to code or demos when available.
