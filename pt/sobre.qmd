@@ -1,0 +1,19 @@
+---
+title: "Sobre mim"
+---
+
+Sou **Nicolas Sousa**, de São Paulo, Brasil.
+
+Minha trajetória reúne experiência profissional em finanças e estudos em contabilidade, engenharia, computação, física e matemática. Gosto de aproximar disciplinas e investigar questões que surgem nesse encontro.
+
+Este site é um espaço independente para escrever e registrar a evolução das minhas ideias.
+
+## Interesses
+
+- Representação do conhecimento e epistemologia
+- Grafos e redes científicas
+- Física e matemática
+- Inteligência artificial e automação
+- Desenvolvimento de ferramentas e experiências de aprendizagem
+
+As opiniões expressas aqui são pessoais e não representam empregadores ou instituições às quais estou vinculado.
