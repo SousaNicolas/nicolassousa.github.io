@@ -1,0 +1,28 @@
+---
+title: "Nicolas Sousa"
+description: "Science, Technology & Reflections"
+title-block-banner: false
+page-layout: full
+---
+
+::: {.hero}
+::: {}
+<span class="eyebrow">Science · Technology · Reflections</span>
+
+# Nicolas Sousa
+
+Um espaço pessoal para ideias, pesquisas e projetos. / A personal space for ideas, research, and projects.
+
+[Português](pt/index.qmd){.ns-cta} &nbsp; [English](en/index.qmd)
+:::
+:::
+
+<script>
+(function(){
+  const saved = localStorage.getItem('ns-language');
+  const preferred = (navigator.languages || [navigator.language || 'pt']).some(v => v.toLowerCase().startsWith('pt')) ? 'pt' : 'en';
+  const lang = saved === 'pt' || saved === 'en' ? saved : preferred;
+  const next = lang === 'pt' ? 'pt/' : 'en/';
+  window.location.replace(new URL(next, window.location.href).href);
+})();
+</script>
